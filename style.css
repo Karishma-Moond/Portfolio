@@ -1,4 +1,23 @@
 /*  import google fonts */
+*{  margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    }
+   body{
+    background: #080808;
+    color: #fff; 
+}
+    #header{
+    width: 1000%;
+    height: 300vh;
+    background-image:url('kimu1.png');
+    background-position: center;
+    }
+
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 *{
     margin: 0;
@@ -31,7 +50,7 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .services, .skills, .teams, .contact, footer{
+.about, .services, .skills,  .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
@@ -157,7 +176,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("file:///Users/karishmamoond/Desktop/INT%20219%20%20project/images/kimu2.png") no-repeat ;
+    background: url('kimu2.png') no-repeat ;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -365,7 +384,7 @@ section .title::after{
 .skills-content .right .mysql::before{
     width: 70%;
 }
-/* teams section styling */
+
 
 /* contact section styling */
 .contact .title::after{
