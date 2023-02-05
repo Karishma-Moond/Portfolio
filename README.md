@@ -1,3 +1,3 @@
 # Portfolio
 
-karishma-moond.Portfolio.github.io.
+https://karishma-moond.github.io/Portfolio/
